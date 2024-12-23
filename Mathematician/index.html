@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematician</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <h1 class="heading-1">Mathematician</h1>
+
+            <div class="menu-bar">
+                <a href="./PDFs/pdf.html" class="nav-list" target="_main">PDF Notes</a>
+                <a href="./Blogs/blogs.html" class="nav-list"target="_main">Blogs</a>
+                <a href="./Lactures/video.html" class="nav-list"target="_main">Lectures</a>
+                <a href="./Help/help.html" class="nav-list"target="_main">Help</a>
+
+                <!-- <div class="search-box">
+                    <input type="text" placeholder="Search here..." aria-controls="datatable"><button id="search">Search</button>
+                </div> -->
+            </div>
+        </nav>
+    </header>
+<main class="content">
+
+    <!-- <h1 class="heading-2">Fun with Maths</h1> -->
+        
+<div id="introduction">
+    <h3>Do you need help with Maths?</h3>
+    <p>
+        Our website uses an interactive methodolgy of teaching Maths using the latest web technologies. Your learning experience with us is guaranted to be intuitive and fun. You will have fun while learning. this is the secret of outstanding results.
+        Check reviews from our students.
+    </p>
+</div>
+
+<h2 class="heading-1">Watch lactures.</h2>
+
+<div class="lactures">
+    <div class="phase-1">
+        <div class="box"><video src="./Lactures/Intorducts for 10th.mp4" controls></video> <section>Introductions for 10th Mathametics</section></div>
+        <div class="box"><video src="./Lactures/Ch-3 12th std.mp4"controls></video><section>Ch-3 12th</section></div>
+        <div class="box"><video src="./Lactures/Std-10 ch-2.mp4"controls></video><section>Ch-2 Std-10</section></div>
+    </div>
+    <div class="phase-2">
+        <div class="box"><video src="./Lactures/Std-6 ch-1.mp4"controls><section>Std-6 Ch-1</section></video></div>
+        <div class="box"><video src="./Lactures/Std-6 ch-2.mp4"controls></video><section>Std-6 Ch-2</section></div>
+        <div class="box"><video src="./Lactures/STD-9-Ch-3.mp4"controls></video><section>Std-9 Ch-3</section></div>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="calculator_box">
+    <div id="calculator">
+        <input type="text" id="display" readonly>
+        <div id="keys">
+            <button class="operator-btn" onclick="appendToDisplay('+')">+</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button class="operator-btn" onclick="appendToDisplay('-')">-</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button class="operator-btn" onclick="appendToDisplay('*')">*</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button class="operator-btn" onclick="appendToDisplay('/')">/</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button class="operator-btn" onclick="clearDisplay()">C</button>
+            <button  class="operator-btn"onclick="appendToDisplay('(')">(</button>
+            <button  class="operator-btn"onclick="appendToDisplay(')')">)</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+</main>
+
+<footer>
+    <div class="first-half">
+        ©Copyright by MyCodesHub & Web-Sonic.
+    </div>
+    <div class="second-half">
+        <div class="big-txt">
+            About Services of Host Site.
+        </div>
+
+        <p>
+            This website is developed by Ayush Dobariya. MyCodesHub & Web-Sonic. This is site made for students. The non-profitable 
+            Service. Responsive Site wich can run on every device with internet and all videos are taken by Oxford school of science 
+             for the project of Mathametics Exbition-Amreli, Gujarat India 365601.
+        </p>
+    </div>
+</footer>
+    <script src="./script.js"></script>
+    
+      
+</body>
+</body>
+</html>
